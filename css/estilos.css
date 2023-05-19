@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+body{
+    overflow-x: hidden;
+}
+.top-header{
+    background-color: #000;
+    height: 8rem;
+    display: grid;
+    align-items: center;
+}
+.top-header div{
+    padding-left: 8rem;
+}
+.contenedor-form{
+    padding-right: 10rem;
+}
+.contenedor-form input{
+    height: 3.9rem;
+    font-size: 1.7rem;
+}
+.contenedor-form button{
+    width: 15rem;
+    font-size: 1.7rem;
+}
+.header{
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+.header a{
+    color: #c7c7c7;
+}
+.ul-nav li{
+    font-size: 2.4rem;
+    padding: 0.2rem 6rem 0.4rem 6rem;
+}
+a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.section-carousel{
+    margin-top: 0rem;
+    padding: 0rem;
+    margin-bottom: 8rem;
+}
+.section-promociones{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-promociones article{
+    display: flex;
+    align-items: center;
+}
+.section-promociones img{
+    width: 5rem;
+    height: 6rem;
+    margin-right: 1rem;
+}
+.contenedor-medios_de_pago{
+    margin: 0rem 7rem 0rem 5rem;
+}
+.contenedor-descuentos{
+    margin-right: 3rem;
+}
+.div{
+    width: 16.5rem;
+    font-size: 2rem;
+}
+.div-diferent{
+    width: 17rem;
+    font-size: 2rem;
+}
+.productos h2{
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.productos article{
+    display: flex;
+    justify-content: center;
+}
+.productos img{
+    width: 30rem;
+}
+@media (max-width:1200px){}
+@media (max-width:992px){
+    .contenedor-titulo{
+        display: flex;
+        justify-content: center;
+        padding: 0rem;
+    }
+    .top-header div{
+        padding: 0;
+    }
+    .top-header h1{
+        font-size: 3.6rem;
+    }
+    .contenedor-form{
+        display: none;
+    }
+}
+@media (max-width:720px){
+    .header{
+        justify-content: end;
+    }
+    #boton{
+        justify-content: end;
+    }
+    .contenedor-form{
+        display: none;
+    }
+    .top-header{
+        display: flex;
+        justify-content: center;
+    }
+    .top-header div{
+        padding: 0rem;
+    }
+    .top-header h1{
+        font-size: 3.6rem;
+    }
+}
+@media (max-width:576px){}
