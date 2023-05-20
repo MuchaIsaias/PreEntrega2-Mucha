@@ -111,14 +111,54 @@ a{
 }
 .footer-top{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+.footer-top a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-top p{
     font-size: 3.4rem;
+}
+.footer-top input{
+    width: 45rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+}
+.footer-top button{
+    width: 45rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: #252525;
+    text-align: center;
+}
+.footer-form{
+    width: 50rem;
+}
+.footer-body{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+    flex-wrap: wrap;
+    color: #c7c7c7;
+}
+.footer-body-direccion{
+    width: 30rem;
+    font-size: 2.5rem;
+}
+.footer-body-contacto{
+    margin-left: 20rem;
+    width: 44rem;
+    font-size: 2.4rem;
 }
 .footer-final{
     background-color: #252525;
     font-size: 2rem;
     color: #c7c7c7;
+    text-align: center;
 }
 @media (max-width:1200px){}
 @media (max-width:992px){
