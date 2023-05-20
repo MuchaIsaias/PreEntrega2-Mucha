@@ -2,42 +2,63 @@
     padding: 0;
     margin: 0;
     font-size: 62.5%;
+    font-family: granRegular;
 }
 body{
-    height: 100vw;
     overflow-x: hidden;
 }
 .top-header{
     background-color: #000;
-    height: 8rem;
     display: grid;
+    height: 6.5rem;
     align-items: center;
+    border-top: 0.2rem solid #c7c7c7;
 }
-.top-header div{
-    padding-left: 8rem;
+.contenedor-titulo{
+    text-align: center;
 }
-.contenedor-form{
-    padding-right: 10rem;
+.contenedor-redes{
+    display: flex;
+    align-items: flex-start;
+    font-size: 3rem;
+    color: #c7c7c7;
+}
+.contenedor-redes img{
+    width: 2.8rem;
+}
+.contenedor-redes a{
+    margin-left: 2rem;
 }
 .contenedor-form input{
     height: 3.9rem;
     font-size: 1.7rem;
+    width: 30rem;
 }
 .contenedor-form button{
-    width: 15rem;
+    width: 9rem;
     font-size: 1.7rem;
 }
 .header{
     background-color: #252525;
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
+    position: sticky;
+    top: 0rem;
+}
+.header nav{
+    padding: 0rem;
 }
 .header a{
     color: #c7c7c7;
 }
 .ul-nav li{
-    font-size: 2.4rem;
-    padding: 0.2rem 6rem 0.4rem 6rem;
+    padding: 0.2rem 7rem 0.2rem 7rem;
+    font-size: 2.2rem;
+    border-right: 1px solid #c7c7c7;
+}
+.ul-nav:nth-child(1){
+    border-left: 1px solid #c7c7c7;
 }
 a{
     text-decoration: none;
@@ -79,6 +100,23 @@ a{
     display: flex;
     justify-content: center;
 }
+.productos h2{
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.productos article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    width: 27rem;
+}
+.productos img{
+    width: 23rem;
+}
 .productos p{
     font-size: 1.6rem;
     text-align: center;
@@ -86,24 +124,15 @@ a{
 .productos h3{
     text-align: center;
     color: red;
-}
-.productos h2{
-    margin-top: 7rem;
-    text-align: center;
-    font-size: 3rem;
-}
-.productos article{
-    margin-left: 4rem;
-    margin-top: 2rem;
-    width: 27rem;
-}
-.productos img{
-    width: 23rem;
+    margin-top: 1rem;
 }
 .productos button{
     font-size: 1.3rem;
     height: 3.5rem;
     width: 10rem;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+    margin-bottom: 2rem;
 }
 .footer{
     background-color: #000;
@@ -114,6 +143,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 5rem;
+    align-items: flex-start;
 }
 .footer-top a{
     display: flex;
@@ -127,6 +157,7 @@ a{
     width: 45rem;
     height: 4.5rem;
     font-size: 1.5rem;
+    margin-bottom: 0.3rem;
 }
 .footer-top button{
     width: 45rem;
@@ -153,6 +184,7 @@ a{
     margin-left: 20rem;
     width: 44rem;
     font-size: 2.4rem;
+    padding-top: 2rem;
 }
 .footer-final{
     background-color: #252525;
