@@ -4,6 +4,7 @@
     font-size: 62.5%;
 }
 body{
+    height: 100vw;
     overflow-x: hidden;
 }
 .top-header{
@@ -74,17 +75,50 @@ a{
     width: 17rem;
     font-size: 2rem;
 }
+.productos{
+    display: flex;
+    justify-content: center;
+}
+.productos p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.productos h3{
+    text-align: center;
+    color: red;
+}
 .productos h2{
     margin-top: 7rem;
     text-align: center;
     font-size: 3rem;
 }
 .productos article{
-    display: flex;
-    justify-content: center;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 27rem;
 }
 .productos img{
-    width: 30rem;
+    width: 23rem;
+}
+.productos button{
+    font-size: 1.3rem;
+    height: 3.5rem;
+    width: 10rem;
+}
+.footer{
+    background-color: #000;
+    margin-top: 5rem;
+}
+.footer-top{
+    display: flex;
+}
+.footer-top p{
+    font-size: 3.4rem;
+}
+.footer-final{
+    background-color: #252525;
+    font-size: 2rem;
+    color: #c7c7c7;
 }
 @media (max-width:1200px){}
 @media (max-width:992px){
@@ -122,6 +156,9 @@ a{
     }
     .top-header h1{
         font-size: 3.6rem;
+    }
+    .productos{
+        justify-content: center;
     }
 }
 @media (max-width:576px){}
