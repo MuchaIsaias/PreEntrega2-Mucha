@@ -72,28 +72,27 @@ a{
 .section-promociones{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+.section-promociones p{
+    font-family: Rubik , sans-serif;
+}
+
 .section-promociones article{
     display: flex;
     align-items: center;
 }
 .section-promociones img{
-    width: 5rem;
+    width: 5.5rem;
     height: 6rem;
     margin-right: 1rem;
 }
-.contenedor-medios_de_pago{
-    margin: 0rem 7rem 0rem 5rem;
-}
-.contenedor-descuentos{
-    margin-right: 3rem;
-}
 .div{
-    width: 16.5rem;
+    width: 18rem;
     font-size: 2rem;
 }
 .div-diferent{
-    width: 17rem;
+    width: 19rem;
     font-size: 2rem;
 }
 .productos{
@@ -120,11 +119,13 @@ a{
 .productos p{
     font-size: 1.6rem;
     text-align: center;
+    font-family: Rubik , sans-serif;
 }
 .productos h3{
     text-align: center;
     color: red;
     margin-top: 1rem;
+    font-family: Rubik , sans-serif;
 }
 .productos button{
     font-size: 1.3rem;
@@ -152,6 +153,7 @@ a{
 }
 .footer-top p{
     font-size: 3.4rem;
+    font-family: Rubik , sans-serif;
 }
 .footer-top input{
     width: 45rem;
