@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     font-size: 62.5%;
-    font-family: granRegular;
+    
 }
 body{
+    font-family: granRegular;
+    width: 100%;
     overflow-x: hidden;
 }
-.top-header{
+.top-header-contenedor{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: #000;
-    display: grid;
-    height: 6.5rem;
     align-items: center;
     border-top: 0.2rem solid #c7c7c7;
 }
@@ -35,7 +37,7 @@ body{
     width: 30rem;
 }
 .contenedor-form button{
-    width: 9rem;
+    width: 8rem;
     font-size: 1.7rem;
 }
 .header{
@@ -45,6 +47,7 @@ body{
     margin-bottom: 5rem;
     position: sticky;
     top: 0rem;
+    flex-wrap: wrap;
 }
 .header nav{
     padding: 0rem;
@@ -52,12 +55,12 @@ body{
 .header a{
     color: #c7c7c7;
 }
-.ul-nav li{
+.nav-ul li{
     padding: 0.2rem 7rem 0.2rem 7rem;
     font-size: 2.2rem;
     border-right: 1px solid #c7c7c7;
 }
-.ul-nav:nth-child(1){
+.nav-ul:nth-child(1){
     border-left: 1px solid #c7c7c7;
 }
 a{
@@ -169,7 +172,7 @@ a{
     text-align: center;
 }
 .footer-form{
-    width: 50rem;
+    width: 45rem;
 }
 .footer-body{
     display: flex;
@@ -183,7 +186,7 @@ a{
     font-size: 2.5rem;
 }
 .footer-body-contacto{
-    margin-left: 20rem;
+    margin-left: 24rem;
     width: 44rem;
     font-size: 2.4rem;
     padding-top: 2rem;
@@ -194,8 +197,52 @@ a{
     color: #c7c7c7;
     text-align: center;
 }
-@media (max-width:1200px){}
-@media (max-width:992px){
+@media (max-width:1200px){
+    .top-header-contenedor{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+    .section-promociones{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .contenedor-titulo{
+    }
+    .contenedor-form input{
+        height: 4rem;
+        width: 35rem;
+    }
+    .contenedor-form button{
+        width: 8rem;
+        font-size: 1.7rem;
+    }
+    .contenedor-redes{
+        display: none;
+    }
+    .nav-ul li{
+        padding: 0.2rem 6rem 0.2rem 6rem;
+        font-size: 2.2rem;
+    }
+    .footer-top p{
+        margin-right: 4rem;
+    }
+    .footer-body-contacto{
+        margin-left: 20rem;
+        width: 44rem;
+        font-size: 2.4rem;
+        padding-top: 2rem;
+    }
+    .footer-top a{
+        margin-bottom: 1rem;
+    }
+    .footer-form{
+        margin-bottom: 2rem;
+    }   
+}
+@media (max-width:990px){
     .contenedor-titulo{
         display: flex;
         justify-content: center;
@@ -204,19 +251,67 @@ a{
     .top-header div{
         padding: 0;
     }
-    .top-header h1{
+    .top-header-contenedor h1{
         font-size: 3.6rem;
     }
     .contenedor-form{
         display: none;
     }
+    .nav-ul li{
+        padding: 0.2rem 4rem 0.2rem 4rem;
+        font-size: 2rem;
+    }
+    .section-promociones{
+        display: flex;
+    }
+    .footer-body-contacto{
+        margin-left: 10rem;
+        width: 44rem;
+        font-size: 2.4rem;
+        padding-top: 2rem;
+    }
+    .footer-top a{
+        margin-bottom: 1rem;
+    }
+    .footer-form{
+        margin-bottom: 2rem;
+    }
 }
-@media (max-width:720px){
+@media (max-width:768px){
+    .top-header-contenedor h1{
+        font-size: 3rem;
+    }
     .header{
-        justify-content: end;
+        justify-content: start;
+        background-color: #c7c7c7;
+        width: 100vw;
+    }
+    .section-promociones article{
+        margin-top: 2rem;
+    }
+    .contenedor-nav{
+        margin-right: 1rem;
     }
     #boton{
-        justify-content: end;
+        padding: 1rem 1rem 1rem 2rem;
+    }
+    #boton button{
+        width: 6rem;
+        height: 4rem;
+        margin-left: 4rem;
+    }
+    #boton span{
+        font-size: 2rem;
+    }
+    .contenedor-ul a{
+        color: #000;
+        font-size: 3rem;
+    }
+    .contenedor-ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
     .contenedor-form{
         display: none;
@@ -225,14 +320,25 @@ a{
         display: flex;
         justify-content: center;
     }
-    .top-header div{
-        padding: 0rem;
-    }
-    .top-header h1{
+    .top-header-contenedor h1{
         font-size: 3.6rem;
     }
     .productos{
         justify-content: center;
     }
+    .footer-body-direccion{
+        text-align: start;
+    }
 }
-@media (max-width:576px){}
+@media (max-width:576px){
+    .contenedor-ul{
+        margin-right: 28rem;
+    }
+    .section-promociones{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-header h1{
+        font-size: 3rem;
+    }
+}
