@@ -2,22 +2,21 @@
     padding: 0;
     margin: 0;
     font-size: 62.5%;
-    
 }
-body{
-    font-family: granRegular;
-    width: 100%;
-    overflow-x: hidden;
-}
+
 .top-header-contenedor{
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: #000;
     align-items: center;
     border-top: 0.2rem solid #c7c7c7;
+    margin-right: 0rem;
 }
 .contenedor-titulo{
     text-align: center;
+}
+.contenedor-titulo h1{
+    color: blueviolet;
 }
 .contenedor-redes{
     display: flex;
@@ -44,7 +43,6 @@ body{
     background-color: #252525;
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
     position: sticky;
     top: 0rem;
     flex-wrap: wrap;
@@ -71,6 +69,9 @@ a{
     margin-top: 0rem;
     padding: 0rem;
     margin-bottom: 8rem;
+}
+.section-carousel img{
+    height: 40rem;
 }
 .section-promociones{
     display: flex;
@@ -101,20 +102,24 @@ a{
 .productos{
     display: flex;
     justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
-.productos h2{
+.titulo-productos{
     margin-top: 7rem;
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 3rem;
 }
 .productos article{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     width: 27rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 .productos img{
     width: 23rem;
@@ -138,9 +143,33 @@ a{
     margin-left: 1.8rem;
     margin-bottom: 2rem;
 }
+.productos-titulo{
+    padding-top: 2.5rem;
+    margin-left: 10rem;
+}
+.productos-categorias{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
+.todos-los-productos{
+    margin-top: 3rem;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+}
+.todos-los-productos article:nth-child(1){
+    margin-top: 3rem;
+}
+.todos-los-productos article{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.todos-los-productos img{
+    width: 26rem;
+}
 .footer{
     background-color: #000;
-    margin-top: 5rem;
+    margin-bottom: -1rem;
 }
 .footer-top{
     display: flex;
@@ -262,6 +291,13 @@ a{
     .section-promociones{
         display: flex;
     }
+    .section-carousel img{
+        height: 35rem;
+    }
+    .productos{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
     .footer-body-contacto{
         margin-left: 10rem;
         width: 44rem;
@@ -282,7 +318,6 @@ a{
     .header{
         justify-content: start;
         background-color: #c7c7c7;
-        width: 100vw;
     }
     .section-promociones article{
         margin-top: 2rem;
@@ -314,6 +349,10 @@ a{
     .contenedor-form{
         display: none;
     }
+    .productos{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
     .top-header{
         display: flex;
         justify-content: center;
@@ -323,6 +362,9 @@ a{
     }
     .productos{
         justify-content: center;
+    }
+    .section-carousel img{
+        height: 30rem;
     }
     .footer-body-direccion{
         text-align: start;
@@ -336,7 +378,123 @@ a{
         display: flex;
         flex-wrap: wrap;
     }
+    .productos{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .section-carousel img{
+        height: 25rem;
+    }
     .top-header h1{
         font-size: 3rem;
     }
+}
+.main-contactos{
+    background-color:#ebebeb;
+}
+.titulo-contac{
+    text-align: center;
+}
+.titulo-contactos{
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: start;
+    padding-left: 10rem;
+}
+.titulo-contactos h2{
+    font-size: 2.5rem;
+}
+.contactos-section p{
+    font-size: 1.7rem;
+}
+.contactos-section h2{
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.contactos-section h3{
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    color: blueviolet;
+}
+.contactos-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+.contactos-informacion{
+    margin-right: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.contactos-registro{
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+.sacar-position{
+    position: static;
+}
+.contactos-gmail{
+    width: 50%;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem-;
+}
+.contactos-password{
+    width: 50%;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.contactos-form-textarea{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.contactos-form-textarea textarea{
+    height: 10rem;
+}
+.contactos-mapa iframe{ 
+    width: 100%;
+    height: 10rem;
+    height: 30rem;
+}
+.contactos-form-inputs{
+    display: flex;
+    height: 6rem;
+}
+.contactos-form button{
+    margin-left: 1rem;
+    width: 97%;
+    height: 4rem;
+    font-size: 2rem;
+}
+.contactos-form{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.ayuda-main-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 10rem 5rem 10rem;
+    --bs-accordion-btn-bg: none;
+
+}
+.ayuda-main{
+    background-color:#ebebeb;
+}
+.ayuda-main button{
+    font-size: 2.5rem;
+    background-color: #252525;
+    color: #c7c7c7;
+    position: static;
+    padding: 1.5rem;
+}
+.ayuda-main h3{
+    font-size: 2rem;
+    color: blueviolet;
+}
+.ayuda-main p{
+    font-size: 2rem;
 }

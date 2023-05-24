@@ -1,67 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> El Refugio del hardware</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Refugio Del Hardware</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
-    <body>
-        <div class="top-header">
-            <div class="row">
-                <div class="col-xl-4 col-md-12 contenedor-titulo dl-fex justify-content-center">
-                    <a href="./index.html"><h1>El Refugio del hardware</h1></a>
-                </div>
-                <div class="col-xl-4 contenedor-form">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar Productos......" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-                <div class="col-xl-4 contenedor-redes">
-                    <p>Seguinos En :</p>
-                    <a href="https://api.whatsapp.com/send?phone=5492236211929"><img src="./img/whatsapp.png" alt=""></a>
-                    <a href="https://twitter.com/?lang=es"><img src="./img/gorjeo.png" alt=""></a>
-                    <a href="https://www.facebook.com/isaiass.mucha"><img src="./img/facebook.png" alt=""></a>
-                    <a href="https://www.instagram.com/muchaisaias/"><img src="./img/instagram.png" alt=""></a>
-                    <a href="https://www.youtube.com/channel/UCoE7bShhyc2g2Wdu2F6YEuw"><img src="./img/youtube.png" alt=""></a>
-                    <a href="https://ar.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"><img src="./img/linkedin.png" alt=""></a>
-                </div>
-            </div>
+  <body>
+    <div class="row top-header-contenedor">
+      <div class="col-xl-4 col-lg-6 col-md-12 contenedor-titulo">
+        <a href="../index.html"><h1>El Refugio Del Hardware</h1></a>
+      </div>
+      <div class="col-xl-4 col-lg-6 col-md-12 contenedor-form">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar Productos......" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+      <div class="col-xl-4 col-md-12 contenedor-redes">
+        <p>Seguinos En :</p>
+        <a href="https://api.whatsapp.com/send?phone=5492236211929"><img src="../img/whatsapp.png" alt=""></a>
+        <a href="https://twitter.com/?lang=es"><img src="../img/gorjeo.png" alt=""></a>
+        <a href="https://www.facebook.com/isaiass.mucha"><img src="../img/facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/muchaisaias/"><img src="../img/instagram.png" alt=""></a>
+        <a href="https://www.youtube.com/channel/UCoE7bShhyc2g2Wdu2F6YEuw"><img src="../img/youtube.png" alt=""></a>
+        <a href="https://ar.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"><img src="../img/linkedin.png" alt=""></a>
+      </div>
+    </div>
+    <header class="header">
+      <nav class="navbar navbar-expand-md header-nav">
+        <div class="container-fluid contenedor-nav" id="boton">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse contenedor-ul" id="navbarNav">
+            <ul class="navbar-nav nav-ul">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactos.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ayuda.html">Ayuda</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <header class="header">
-            <nav class="navbar navbar-expand-md header-nav">
-                <div class="container-fluid" id="boton">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse contenedor-ul" id="navbarNav">
-                        <ul class="navbar-nav ul-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./productos.html">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contactos.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./ayuda.html">Ayuda</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+      </nav>
+    </header>
+    <main class="ayuda-main">
+      <div class="accordion accordion-flush ayuda-main-contenedor" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Precio
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿El precio que figura en la web es el precio final?</h3>
+              <p>Todos los precios en la web incluyen el IVA, y se encuentran expresados en pesos argentinos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Formas De Pago
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Cuáles son las formas de pago?</h3>
+              <p>Contamos con dos formas de pago: a través de depósito/transferencia bancaria,o bien a traves MercadoPago (Tarjetas online, PagoFácil y RapiPago) con los cuales podés abonar en cuotas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Envios 
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Cómo gestiono el envío de mi pedido?</h3>
+              <p>En primer lugar, para conocer el costo del envío, una vez al agregues al carrito tu compra, solo debes colocar tu código postal en el recuadro correspondiente, seleccionar la mensajería de tu preferencia y elegir si deseas el retiro en alguna sucursal o la entrega a domicilio. Tené en cuenta que, para calcular el costo del envío, se toman en consideración tanto las dimensiones y peso del paquete como la distancia de la localidad de entrega.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Facturacion
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Cómo tramito la factura de mi compra?</h3>
+              <p>En todas las compras efectuadas en la web, brindamos sin excepción alguna, la factura de compra. Una vez que realiza y abona el pedido, enviamos a tu dirección de correo electrónico la factura correspondiente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Deposito - Transferencia Bancaria
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Cómo abono a través de depósito/transferencia?</h3>
+              <p>Una vez se realiza el pedido, te facilitamos los datos del CBU. Debes abonar e informar el pago desde nuestra web, antes de la fecha de vencimiento de la reserva.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              Mercado Pago
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Cómo puedo abonar a través de MercadoPago?</h3>
+              <p>Podés hacerlo de tres formas: Con tarjetas online en cuotas (no se puede acceder a cuotas sin interés); A través de RapiPago/ PagoFácil (se abona al precio de lista, pero no se pueden hacer cuotas, sólo se puede abonar en un pago); y realizando una transferencia desde tu cuenta de MercadoPago.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              Realizar un Pedido
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Cómo realizo un pedido?</h3>
+              <p>Solo tenés que seleccionar todos los productos que deseas adquirir. Seguidamente, en el carrito de compras, para conocer el costo del envío colocás tu código postal en el recuadro correspondiente, elegís la mensajería de tu preferencia y debajo seleccionas la forma de pago. Luego hacés clic en el botón COMPRAR. Por último, completás los pasos brindados por el asistente, hasta confirmar la compra. Se te asignará un número de pedido y se mostrarán los datos del mismo. También enviaremos un mail a tu correo electrónico registrado con los detalles del pedido realizado. </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseeight">
+              Garantias
+            </button>
+          </h2>
+          <div id="flush-collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Tienen Garantias Los Productos?</h3>
+              <p>Todos los componentes tienen una garantía regida por las condiciones de cada fabricante, contados a
+                partir de la fecha de compra.La garantía general de los productos es de 6 meses. Salvo productos que pueden
+                llegar a tener más o menos garantía dependiendo de lo que disponga cada fabricante por el producto
+                adquirido.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+              Cambios y Devoluciones
+            </button>
+          </h2>
+          <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3>¿Puedo Devolver un Producto Defectuoso?</h3>
+              <p>el producto presenta algún inconveniente, te permitimos devolverlo dentro de los 10 días corridos de recibido y te devolveremos todos los cargos abonados. Tené en cuenta que tenés que devolverlo en perfectas condiciones, sin signos de uso y con su caja y envoltorio sin deteriroros.
+              ¿Cómo realizo una devolución?
+              Envianos un email a Isaiasmucha128@gmail.com, te indicaremos los pasos a seguir y te guiaremos en el proceso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
         <footer class="footer">
             <div class="footer-top">
-                <a href="./index.html" class=""><p>El Refugio del hardware</p></a>
+                <a href="../index.html" class=""><p>El Refugio del hardware</p></a>
                 <form class="row footer-form" role="search">
                     <input class="form-control me-2 d-flex" type="email" placeholder="Introducir Correo Electronico" aria-label="Search">
                     <button class="btn btn-outline-primary" type="email">Suscribirse</button>

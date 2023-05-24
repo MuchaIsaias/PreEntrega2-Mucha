@@ -1,67 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> El Refugio del hardware</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Refugio Del Hardware</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
-    <body>
-        <div class="top-header">
-            <div class="row">
-                <div class="col-xl-4 col-md-12 contenedor-titulo dl-fex justify-content-center">
-                    <a href="./index.html"><h1>El Refugio del hardware</h1></a>
-                </div>
-                <div class="col-xl-4 contenedor-form">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar Productos......" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-                <div class="col-xl-4 contenedor-redes">
-                    <p>Seguinos En :</p>
-                    <a href="https://api.whatsapp.com/send?phone=5492236211929"><img src="./img/whatsapp.png" alt=""></a>
-                    <a href="https://twitter.com/?lang=es"><img src="./img/gorjeo.png" alt=""></a>
-                    <a href="https://www.facebook.com/isaiass.mucha"><img src="./img/facebook.png" alt=""></a>
-                    <a href="https://www.instagram.com/muchaisaias/"><img src="./img/instagram.png" alt=""></a>
-                    <a href="https://www.youtube.com/channel/UCoE7bShhyc2g2Wdu2F6YEuw"><img src="./img/youtube.png" alt=""></a>
-                    <a href="https://ar.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"><img src="./img/linkedin.png" alt=""></a>
-                </div>
-            </div>
+  <body>
+    <div class="row top-header-contenedor">
+      <div class="col-xl-4 col-lg-6 col-md-12 contenedor-titulo">
+        <a href="../index.html"><h1>El Refugio Del Hardware</h1></a>
+      </div>
+      <div class="col-xl-4 col-lg-6 col-md-12 contenedor-form">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar Productos......" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+      <div class="col-xl-4 col-md-12 contenedor-redes">
+        <p>Seguinos En :</p>
+        <a href="https://api.whatsapp.com/send?phone=5492236211929"><img src="../img/whatsapp.png" alt=""></a>
+        <a href="https://twitter.com/?lang=es"><img src="../img/gorjeo.png" alt=""></a>
+        <a href="https://www.facebook.com/isaiass.mucha"><img src="../img/facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/muchaisaias/"><img src="../img/instagram.png" alt=""></a>
+        <a href="https://www.youtube.com/channel/UCoE7bShhyc2g2Wdu2F6YEuw"><img src="../img/youtube.png" alt=""></a>
+        <a href="https://ar.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"><img src="../img/linkedin.png" alt=""></a>
+      </div>
+    </div>
+    <header class="header">
+      <nav class="navbar navbar-expand-md header-nav">
+        <div class="container-fluid contenedor-nav" id="boton">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse contenedor-ul" id="navbarNav">
+            <ul class="navbar-nav nav-ul">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactos.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ayuda.html">Ayuda</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <header class="header">
-            <nav class="navbar navbar-expand-md header-nav">
-                <div class="container-fluid" id="boton">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse contenedor-ul" id="navbarNav">
-                        <ul class="navbar-nav ul-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./productos.html">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contactos.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./ayuda.html">Ayuda</a>
-                            </li>
-                        </ul>
-                    </div>
+      </nav>
+    </header>
+        <main class="main-contactos">
+          <section class="contactos-section">
+            <div class="card sacar-position contactos-informacion" style="width: 55rem;">
+              <h2 class="card-title">Información</h2>
+              <div class="card-body border-top">
+                <h3 class="card-subtitle mb-2">Direccion:</h3>
+                <p class="card-text">Rufino Inda 2553</p>
+                <p class="card-text">Mar del Plata - Buenos Aires</p>
+                <p class="card-text">Por consultas acerca de tu pedido:</p>
+                <p class="card-text">Tel: (02236211929)</p>
+                <p class="card-text">WhatsApp:+54 9 2236211929</p>
+                <h3 class="card-subtitle mb-2">Atención al cliente:</h3>
+                <p class="card-text">email: Isaiasmucha@gmail.com</p>
+                <h3 class="card-subtitle mb-2">Atención:</h3>
+                <p class="card-text">Lunes a Viernes de 09:30 a 19:00hs.</p>
+                <p class="card-text">Sábados de 09:00 a 14:00hs</p>
+              </div>
+            </div>
+            <div class="card sacar-position contactos-registro" style="width: 55rem;">
+              <div class="card-body">
+                <form class="contactos-form">
+                  <div class="mb-3 contactos-form-inputs">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control contactos-gmail" id="exampleFormControlInput1" placeholder="Tu Correo Electronico" required>
+                    <label for="exampleFormControlPassword1" class="form-label"></label>
+                    <input type="password" class="form-control contactos-password" id="exampleFormControlPassword1" placeholder="Contraseña" required>
+                  </div>
+                  <div class="mb-3 contactos-form-textarea">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                <div class="contactos-mapa">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10372.53603182287!2d-57.55097561502925!3d-38.006901191133444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1684799198949!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </nav>
-        </header>
+              </div>
+            </div>
+          </section>
+        </main>
         <footer class="footer">
             <div class="footer-top">
-                <a href="./index.html" class=""><p>El Refugio del hardware</p></a>
+                <a href="../index.html" class=""><p>El Refugio del hardware</p></a>
                 <form class="row footer-form" role="search">
                     <input class="form-control me-2 d-flex" type="email" placeholder="Introducir Correo Electronico" aria-label="Search">
                     <button class="btn btn-outline-primary" type="email">Suscribirse</button>
