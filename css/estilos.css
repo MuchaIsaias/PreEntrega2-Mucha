@@ -156,6 +156,28 @@ a{
     margin-top: 3rem;
     padding-left: 3rem;
     margin-bottom: 3rem;
+    padding-right: 2rem;
+}
+.productos-categorias a{
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+.productos-categorias article{
+    padding-top: 1rem;
+}
+.todos-los-productos article p{
+    font-size: 2rem;
+    margin-top: 4rem;
+    padding-left: 1rem;
+    width: 80%;
+}
+.todos-los-productos button{
+    text-align: center;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    margin-right: 2rem;
 }
 .todos-los-productos article:nth-child(1){
     margin-top: 3rem;
@@ -163,6 +185,11 @@ a{
 .todos-los-productos article{
     display: flex;
     margin-bottom: 3rem;
+}
+.todos-los-productos h3{
+    color: red;
+    padding-left: 2rem;
+    font-size: 2.2rem;
 }
 .todos-los-productos img{
     width: 26rem;
@@ -226,6 +253,9 @@ a{
     color: #c7c7c7;
     text-align: center;
 }
+.main{
+    --bs-gutter-x: 0rem;
+}
 @media (max-width:1200px){
     .top-header-contenedor{
         padding-top: 2rem;
@@ -238,6 +268,9 @@ a{
         justify-items: center;
         align-items: center;
     }
+    .contactos-form{
+        padding: 0rem;
+    }
     .contenedor-form input{
         height: 4rem;
         width: 35rem;
@@ -249,8 +282,12 @@ a{
     .contenedor-redes{
         display: none;
     }
+    .contenedor-titulo{
+        padding: 0rem;
+        text-align: center;
+    }
     .nav-ul li{
-        padding: 0.2rem 6rem 0.2rem 6rem;
+        padding: 0.2rem 5rem 0.2rem 5rem;
         font-size: 2.2rem;
     }
     .footer-top p{
@@ -265,11 +302,17 @@ a{
     .footer-top a{
         margin-bottom: 1rem;
     }
+    .footer-top input{
+        width: 40rem;
+    }
+    .footer-top button{
+        width: 40rem;
+    }
     .footer-form{
         margin-bottom: 2rem;
     }   
 }
-@media (max-width:990px){
+@media (max-width:991px){
     .contenedor-titulo{
         display: flex;
         justify-content: center;
@@ -281,12 +324,15 @@ a{
     .top-header-contenedor h1{
         font-size: 3.6rem;
     }
+    .header-nav{
+        --bs-navbar-nav-link-padding-x: none;
+    }
     .contenedor-form{
         display: none;
     }
     .nav-ul li{
         padding: 0.2rem 4rem 0.2rem 4rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .section-promociones{
         display: flex;
@@ -309,6 +355,8 @@ a{
     }
     .footer-form{
         margin-bottom: 2rem;
+        width: 40rem;
+        padding-right: 1rem;
     }
 }
 @media (max-width:768px){
