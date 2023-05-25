@@ -194,248 +194,9 @@ a{
 .todos-los-productos img{
     width: 26rem;
 }
-.footer{
-    background-color: #000;
-    margin-bottom: -1rem;
-}
-.footer-top{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 5rem;
-    align-items: flex-start;
-}
-.footer-top a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer-top p{
-    font-size: 3.4rem;
-    font-family: Rubik , sans-serif;
-}
-.footer-top input{
-    width: 45rem;
-    height: 4.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 0.3rem;
-}
-.footer-top button{
-    width: 45rem;
-    height: 4rem;
-    font-size: 2rem;
-    background-color: #252525;
-    text-align: center;
-}
-.footer-form{
-    width: 45rem;
-}
-.footer-body{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 7rem;
-    flex-wrap: wrap;
-    color: #c7c7c7;
-}
-.footer-body-direccion{
-    width: 30rem;
-    font-size: 2.5rem;
-}
-.footer-body-contacto{
-    margin-left: 24rem;
-    width: 44rem;
-    font-size: 2.4rem;
-    padding-top: 2rem;
-}
-.footer-final{
-    background-color: #252525;
-    font-size: 2rem;
-    color: #c7c7c7;
-    text-align: center;
-}
+
 .main{
     --bs-gutter-x: 0rem;
-}
-@media (max-width:1200px){
-    .top-header-contenedor{
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        justify-content: center;
-    }
-    .section-promociones{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-    }
-    .contactos-form{
-        padding: 0rem;
-    }
-    .contenedor-form input{
-        height: 4rem;
-        width: 35rem;
-    }
-    .contenedor-form button{
-        width: 8rem;
-        font-size: 1.7rem;
-    }
-    .contenedor-redes{
-        display: none;
-    }
-    .contenedor-titulo{
-        padding: 0rem;
-        text-align: center;
-    }
-    .nav-ul li{
-        padding: 0.2rem 5rem 0.2rem 5rem;
-        font-size: 2.2rem;
-    }
-    .footer-top p{
-        margin-right: 4rem;
-    }
-    .footer-body-contacto{
-        margin-left: 20rem;
-        width: 44rem;
-        font-size: 2.4rem;
-        padding-top: 2rem;
-    }
-    .footer-top a{
-        margin-bottom: 1rem;
-    }
-    .footer-top input{
-        width: 40rem;
-    }
-    .footer-top button{
-        width: 40rem;
-    }
-    .footer-form{
-        margin-bottom: 2rem;
-    }   
-}
-@media (max-width:991px){
-    .contenedor-titulo{
-        display: flex;
-        justify-content: center;
-        padding: 0rem;
-    }
-    .top-header div{
-        padding: 0;
-    }
-    .top-header-contenedor h1{
-        font-size: 3.6rem;
-    }
-    .header-nav{
-        --bs-navbar-nav-link-padding-x: none;
-    }
-    .contenedor-form{
-        display: none;
-    }
-    .nav-ul li{
-        padding: 0.2rem 4rem 0.2rem 4rem;
-        font-size: 1.8rem;
-    }
-    .section-promociones{
-        display: flex;
-    }
-    .section-carousel img{
-        height: 35rem;
-    }
-    .productos{
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
-    .footer-body-contacto{
-        margin-left: 10rem;
-        width: 44rem;
-        font-size: 2.4rem;
-        padding-top: 2rem;
-    }
-    .footer-top a{
-        margin-bottom: 1rem;
-    }
-    .footer-form{
-        margin-bottom: 2rem;
-        width: 40rem;
-        padding-right: 1rem;
-    }
-}
-@media (max-width:768px){
-    .top-header-contenedor h1{
-        font-size: 3rem;
-    }
-    .header{
-        justify-content: start;
-        background-color: #c7c7c7;
-    }
-    .section-promociones article{
-        margin-top: 2rem;
-    }
-    .contenedor-nav{
-        margin-right: 1rem;
-    }
-    #boton{
-        padding: 1rem 1rem 1rem 2rem;
-    }
-    #boton button{
-        width: 6rem;
-        height: 4rem;
-        margin-left: 4rem;
-    }
-    #boton span{
-        font-size: 2rem;
-    }
-    .contenedor-ul a{
-        color: #000;
-        font-size: 3rem;
-    }
-    .contenedor-ul{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
-    .contenedor-form{
-        display: none;
-    }
-    .productos{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    .top-header{
-        display: flex;
-        justify-content: center;
-    }
-    .top-header-contenedor h1{
-        font-size: 3.6rem;
-    }
-    .productos{
-        justify-content: center;
-    }
-    .section-carousel img{
-        height: 30rem;
-    }
-    .footer-body-direccion{
-        text-align: start;
-    }
-}
-@media (max-width:576px){
-    .contenedor-ul{
-        margin-right: 28rem;
-    }
-    .section-promociones{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .productos{
-        margin-left: 8rem;
-        margin-right: 8rem;
-    }
-    .section-carousel img{
-        height: 25rem;
-    }
-    .top-header h1{
-        font-size: 3rem;
-    }
 }
 .main-contactos{
     background-color:#ebebeb;
@@ -472,7 +233,7 @@ a{
     flex-wrap: wrap;
     padding-bottom: 5rem;
 }
-.contactos-informacion{
+.contactos-section-informacion{
     margin-right: 3rem;
     padding: 1rem;
     margin-top: 2rem;
@@ -546,3 +307,293 @@ a{
 .ayuda-main p{
     font-size: 2rem;
 }
+.footer{
+    background-color: #000;
+    margin-bottom: -1rem;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    align-items: flex-start;
+}
+.footer-top a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top p{
+    font-size: 3.4rem;
+    font-family: Rubik , sans-serif;
+}
+.footer-top input{
+    width: 45rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+.footer-top button{
+    width: 45rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: #252525;
+    text-align: center;
+}
+.footer-form{
+    width: 45rem;
+}
+.footer-body{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+    flex-wrap: wrap;
+    color: #c7c7c7;
+}
+.footer-body-direccion{
+    width: 30rem;
+    font-size: 2.5rem;
+}
+.footer-body-contacto{
+    margin-left: 24rem;
+    width: 44rem;
+    font-size: 2.4rem;
+    padding-top: 2rem;
+}
+.footer-final{
+    background-color: #252525;
+    font-size: 2rem;
+    color: #c7c7c7;
+    text-align: center;
+}
+@media (max-width:1200px){
+    .top-header-contenedor{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+    .section-promociones{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .contactos-form{
+        padding: 0rem;
+    }
+    .contenedor-form input{
+        height: 4rem;
+        width: 35rem;
+    }
+    .contenedor-form button{
+        width: 8rem;
+        font-size: 1.7rem;
+    }
+    .contenedor-redes{
+        display: none;
+    }
+    .contenedor-titulo{
+        padding: 0rem;
+        text-align: center;
+    }
+    .nav-ul li{
+        padding: 0.2rem 5rem 0.2rem 5rem;
+        font-size: 2.2rem;
+    }
+    .footer-top p{
+        margin-right: 4rem;
+    }
+    .footer-body-contacto{
+        margin-left: 20rem;
+        width: 44rem;
+        font-size: 2.4rem;
+        padding-top: 2rem;
+    }
+    .footer-top a{
+        margin-bottom: 1rem;
+    }
+    .footer-top input{
+        width: 40rem;
+    }
+    .footer-top button{
+        width: 40rem;
+    }
+    .footer-form{
+        margin-bottom: 2rem;
+    }
+    .ayuda-main-contenedor{
+        padding: 5rem 8rem 5rem 8rem;
+    }
+}
+@media (max-width:991px){
+    .contenedor-titulo{
+        display: flex;
+        justify-content: center;
+        padding: 0rem;
+    }
+    .top-header div{
+        padding: 0;
+    }
+    .top-header-contenedor h1{
+        font-size: 3.6rem;
+    }
+    .header-nav{
+        --bs-navbar-nav-link-padding-x: none;
+    }
+    .contenedor-form{
+        display: none;
+    }
+    .nav-ul li{
+        padding: 0.2rem 4rem 0.2rem 4rem;
+        font-size: 1.8rem;
+
+    }
+    .section-promociones{
+        display: flex;
+    }
+    .section-carousel img{
+        height: 35rem;
+    }
+    .productos{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .footer-body-contacto{
+        margin-left: 10rem;
+        width: 44rem;
+        font-size: 2.4rem;
+        padding-top: 2rem;
+    }
+    .footer-top a{
+        margin-bottom: 1rem;
+    }
+    .footer-form{
+        margin-bottom: 2rem;
+        width: 40rem;
+        padding-right: 1rem;
+    }
+    .ayuda-main-contenedor{
+        padding: 5rem 6rem 5rem 6rem;
+    }
+}
+@media (max-width:768px){
+    .top-header-contenedor h1{
+        font-size: 3rem;
+    }
+    .header{
+        justify-content: start;
+        background-color: #c7c7c7;
+        border: 0rem solid;
+        overflow-x: hidden;
+    }
+    .section-promociones article{
+        margin-top: 2rem;
+    }
+    .contenedor-nav{
+        margin-right: 1rem;
+    }
+    #boton{
+        padding: 1rem 1rem 1rem 2rem;
+    }
+    #boton button{
+        width: 6rem;
+        height: 4rem;
+        margin-left: 4rem;
+    }
+    #boton span{
+        font-size: 2rem;
+    }
+    .contenedor-ul a{
+        color: #000;
+        font-size: 3rem;
+    }
+    .contenedor-ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .contenedor-form{
+        display: none;
+    }
+    .productos{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .top-header{
+        display: flex;
+        justify-content: center;
+    }
+    .top-header-contenedor h1{
+        font-size: 3.6rem;
+    }
+    .productos{
+        justify-content: center;
+    }
+    .section-carousel img{
+        height: 30rem;
+    }
+    .footer-body-direccion{
+        text-align: start;
+    }
+    .ayuda-main-contenedor{
+        padding: 5rem 4rem 5rem 4rem;
+    }
+    .nav-ul li{
+        border-bottom: 0.1rem solid black;
+        width: 69rem;
+    }
+    .nav-ul li a{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:576px){
+    .section-promociones{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .productos{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .section-carousel img{
+        height: 25rem;
+    }
+    .top-header h1{
+        font-size: 3rem;
+    }
+    .todos-los-productos article p{
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        padding-left: 0rem;
+        margin-right: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+    .todos-los-productos article{
+        margin-right: 0rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .todos-los-productos h3{
+        text-align: center;
+        padding-right: 3rem;
+    }
+    .todos-los-productos button{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .productos-conteiner-buttons{
+        text-align: center;
+    }
+    .ayuda-main-contenedor{
+        padding: 5rem 2rem 5rem 2rem;
+    }
+    .contactos-section{
+        padding-left: 3rem;
+    }
+    .nav-ul li a{
+        font-size: 2.3rem;
+    }
+}
+
