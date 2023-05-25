@@ -3,7 +3,6 @@
     margin: 0;
     font-size: 62.5%;
 }
-
 .top-header-contenedor{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -293,6 +292,29 @@ a{
 .ayuda-main{
     background-color:#ebebeb;
 }
+.nosotros-main{
+    background-color:#ebebeb;
+}
+.nosotros-main-section{
+    padding: 2rem 3rem 2rem 3rem ;
+}
+.nosotros-main-titulo h2{
+    font-size: 3.6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: blueviolet;
+    padding-left: 2rem;
+}
+.nosotros-main-section article{
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.nosotros-main-section p{
+    font-size: 2rem;
+
+    padding: 2rem 2rem 2rem 2rem;
+}
 .ayuda-main button{
     font-size: 2.5rem;
     background-color: #252525;
@@ -346,7 +368,6 @@ a{
 .footer-body{
     display: flex;
     justify-content: center;
-    margin-bottom: 7rem;
     flex-wrap: wrap;
     color: #c7c7c7;
 }
@@ -417,9 +438,6 @@ a{
     }
     .footer-top button{
         width: 40rem;
-    }
-    .footer-form{
-        margin-bottom: 2rem;
     }
     .ayuda-main-contenedor{
         padding: 5rem 8rem 5rem 8rem;
@@ -553,11 +571,11 @@ a{
         flex-wrap: wrap;
     }
     .productos{
-        margin-left: 8rem;
-        margin-right: 8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .section-carousel img{
-        height: 25rem;
+        height: 30rem;
     }
     .top-header h1{
         font-size: 3rem;
